@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>A Survey</title>
+</head>
+<body>
+    <h1>Survey Form For Student</h1>
+    <div class="wrapper">
+        <form action="#">
+            <p>Name</p>
+            <input type = "text" id ="name" class ="form-w95-h" placeholder="Tran Dinh Hieu" name ="name">
+            <p>Email</p>
+            <input type = "email" id ="mail" class ="form-w95-h" placeholder="hieutdde160594@fpt.edu.vn" name = "mail">
+            <p>Age</p> 
+            <input type="text" id = "age" class ="form-w95-h" placeholder="Enter your age" name="age" maxlength="3">
+
+            <p>Which option best describes you?</p>
+                <select class ="form-w92-h" name="jobs id="jobs">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="coder">Coder</option>
+                    <option value="developer">Developer</option>    
+              </select>
+
+            <p>Languages and Frameworks known (Check all that apply)</p>
+                <input class="mb-10" type="checkbox" id="lang" name="lang" value="c">
+                <label for="c"> C </label> <br/>
+                <input class="mb-10"" type="checkbox" id="lang2" name="lang2" value="c++">
+                <label for="lang2"> C++ </label><br>
+                <input class="mb-10" type="checkbox" id="lang3" name="lang3" value="c#">
+                <label for="lang3"> C# </label><br>
+                <input class="mb-10" type="checkbox" id="lang4" name="lang4" value="java">
+                <label for="lang4"> Java </label><br>
+                <input class="mb-10" type="checkbox" id="lang5" name="lang5" value="python">
+                <label for="lang5"> Python </label><br>
+                <input class="mb-10" type="checkbox" id="lang6" name="lang6" value="js">
+                <label for="lang6"> Javascript </label><br>
+                <input class="mb-10" type="checkbox" id="lang7" name="lang7" value="react">
+                <label for="lang7"> React </label><br>
+                <input class="mb-10" type="checkbox" id="lang8" name="lang8" value="angular">
+                <label for="lang8"> Angular </label><br>
+                <input class="mb-10" type="checkbox" id="lang9" name="lang9" value="django">
+                <label for="lang9"> Django </label><br>
+                <input type="checkbox" id="lang10" name="lang10" value="spring">
+                <label for="lang10"> Spring </label><br>
+
+            <p>Any comments or suggestions</p>
+            <textarea class="textarea-style" id="cmt" name="cmt" rows="3" cols="67">
+            </textarea>
+            <input type="submit" class ="btn" value="Submit">
+
+        </form>
+    </div>
+</body>
+</html>
